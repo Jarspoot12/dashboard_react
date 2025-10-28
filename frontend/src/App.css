@@ -1,0 +1,196 @@
+/* --- Reseteo básico y Colores Raíz --- */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+body {
+  margin: 0;
+}
+
+/* --- Layout Principal (Sidebar + Contenido) --- */
+/* Esto define el ancho completo */
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.app-layout {
+  display: grid;
+  /* Columna fija de 260px para la sidebar, el resto (1fr) para el contenido */
+  grid-template-columns: 260px 1fr;
+  grid-template-rows: 100vh;
+  grid-template-areas: "sidebar main";
+  height: 100vh;
+  overflow: hidden; /* Evita el scroll en el body */
+}
+
+.app-content {
+  grid-area: main;
+  background-color: #242424;
+  /* Permite el scroll SÓLO en el área de contenido */
+  overflow-y: auto; 
+  /* Padding para que el contenido no toque los bordes */
+  padding: 2rem;
+  /* IMPORTANTE: No hay 'max-width' aquí, por lo que ocupa todo el ancho de la grid */
+}
+
+/* --- Estilos de Secciones y Tarjetas (Sin cambios) --- */
+.dashboard-header {
+  background-color: #333;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.filtro-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap; /* Para que se ajuste en móviles */
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.filtro-container label {
+  margin-right: 0.5rem;
+  font-size: 1.1em;
+}
+
+.filtro-container select {
+  padding: 0.5em;
+  font-size: 1em;
+  border-radius: 4px;
+  border: none;
+  background-color: #444;
+  color: white;
+}
+
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.kpi-card {
+  background-color: #2f2f2f;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.kpi-card h3 {
+  margin-top: 0;
+  color: #8884d8;
+  font-size: 1.1em;
+}
+
+.kpi-card p {
+  font-size: 2.2em;
+  font-weight: bold;
+  margin: 0;
+  color: #fff;
+}
+
+.charts-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Apilados por defecto */
+  gap: 2rem;
+}
+
+/* En pantallas más grandes, 2 columnas */
+@media (min-width: 900px) {
+  .charts-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.chart-container {
+  background-color: #2f2f2f;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.chart-container h3 {
+  margin-top: 0;
+  text-align: center;
+}
+
+/* --- Estilos de las nuevas secciones (Mapa y Tendencias) --- */
+.map-section,
+.trend-section {
+  background-color: #2f2f2f;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 2rem; /* Separación si están en la misma pestaña (aunque ahora no lo están) */
+}
+
+.map-section h2,
+.trend-section h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.map-filters {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #444;
+}
+
+.map-container {
+  height: 550px; /* Altura fija para el mapa */
+  width: 100%;
+  background-color: #242424;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.map-container svg text {
+  fill: #ccc !important;
+}
+
+.trend-section .filtro-container {
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.trend-section label {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* --- Estilos para React-Select (Modo Oscuro) --- */
+.multi-select {
+  width: 80%;
+  min-width: 300px;
+  color: #333; /* Texto dentro de las cajas */
+}
+
+.select__control {
+  background-color: #444 !important;
+  border: none !important;
+}
+
+.select__menu {
+  background-color: #444 !important;
+}
+
+.select__option:hover {
+  background-color: #5c5c5c !important;
+}
+
+.select__multi-value {
+  background-color: #555 !important;
+}
+
+.select__multi-value__label {
+  color: #fff !important;
+}

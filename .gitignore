@@ -1,5 +1,6 @@
-data/FAOSTAT_data_en_10-27-2025.csv
-data/Value_of_Production_E_All_Data.csv
-data/FAOSTAT_data_en_10-27-2025_pop.csv
-data/FAOSTAT_data_en_10-27-2025_obesidad_desnutricion.csv
+data/raw/FAOSTAT_data_en_10-27-2025.csv
+data/raw/Value_of_Production_E_All_Data.csv
+data/raw/FAOSTAT_data_en_10-27-2025_pop.csv
+data/raw/FAOSTAT_data_en_10-27-2025_obesidad_desnutricion.csv
+data/raw/FAOSTAT_data_en_10-28-2025_grouped.csv
 env/

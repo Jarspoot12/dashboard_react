@@ -1,10 +1,4 @@
 Area,Year,Value
-Afghanistan,2017,2400000.0
-Afghanistan,2018,2700000.0
-Afghanistan,2019,3000000.0
-Afghanistan,2020,3300000.0
-Afghanistan,2021,3600000.0
-Afghanistan,2022,3900000.0
 Albania,2017,500000.0
 Albania,2018,500000.0
 Albania,2019,500000.0
@@ -53,12 +47,6 @@ Azerbaijan,2019,1800000.0
 Azerbaijan,2020,1900000.0
 Azerbaijan,2021,1900000.0
 Azerbaijan,2022,2000000.0
-Bahamas,2017,100000.0
-Bahamas,2018,100000.0
-Bahamas,2019,100000.0
-Bahamas,2020,100000.0
-Bahamas,2021,100000.0
-Bahamas,2022,100000.0
 Bahrain,2017,400000.0
 Bahrain,2018,400000.0
 Bahrain,2019,400000.0
@@ -207,12 +195,6 @@ Colombia,2019,8000000.0
 Colombia,2020,8400000.0
 Colombia,2021,8700000.0
 Colombia,2022,9100000.0
-Comoros,2017,100000.0
-Comoros,2018,100000.0
-Comoros,2019,100000.0
-Comoros,2020,100000.0
-Comoros,2021,100000.0
-Comoros,2022,100000.0
 Congo,2017,200000.0
 Congo,2018,200000.0
 Congo,2019,200000.0
@@ -237,12 +219,6 @@ Croatia,2019,1000000.0
 Croatia,2020,1000000.0
 Croatia,2021,1000000.0
 Croatia,2022,1000000.0
-Cuba,2017,1700000.0
-Cuba,2018,1800000.0
-Cuba,2019,1800000.0
-Cuba,2020,1900000.0
-Cuba,2021,1900000.0
-Cuba,2022,2000000.0
 Cyprus,2017,200000.0
 Cyprus,2018,200000.0
 Cyprus,2019,200000.0
@@ -255,30 +231,12 @@ Czechia,2019,2100000.0
 Czechia,2020,2100000.0
 Czechia,2021,2200000.0
 Czechia,2022,2200000.0
-Democratic People's Republic of Korea,2017,1700000.0
-Democratic People's Republic of Korea,2018,1700000.0
-Democratic People's Republic of Korea,2019,1800000.0
-Democratic People's Republic of Korea,2020,2000000.0
-Democratic People's Republic of Korea,2021,2100000.0
-Democratic People's Republic of Korea,2022,2200000.0
-Democratic Republic of the Congo,2017,2100000.0
-Democratic Republic of the Congo,2018,2300000.0
-Democratic Republic of the Congo,2019,2500000.0
-Democratic Republic of the Congo,2020,2700000.0
-Democratic Republic of the Congo,2021,2900000.0
-Democratic Republic of the Congo,2022,3100000.0
 Denmark,2017,600000.0
 Denmark,2018,600000.0
 Denmark,2019,600000.0
 Denmark,2020,600000.0
 Denmark,2021,600000.0
 Denmark,2022,600000.0
-Djibouti,2017,100000.0
-Djibouti,2018,100000.0
-Djibouti,2019,100000.0
-Djibouti,2020,100000.0
-Djibouti,2021,100000.0
-Djibouti,2022,100000.0
 Dominican Republic,2017,1800000.0
 Dominican Republic,2018,1900000.0
 Dominican Republic,2019,2000000.0
@@ -321,12 +279,6 @@ Estonia,2019,200000.0
 Estonia,2020,200000.0
 Estonia,2021,200000.0
 Estonia,2022,200000.0
-Eswatini,2017,200000.0
-Eswatini,2018,200000.0
-Eswatini,2019,200000.0
-Eswatini,2020,200000.0
-Eswatini,2021,200000.0
-Eswatini,2022,200000.0
 Ethiopia,2017,1100000.0
 Ethiopia,2018,1300000.0
 Ethiopia,2019,1400000.0
@@ -351,18 +303,6 @@ France,2019,5200000.0
 France,2020,5100000.0
 France,2021,5000000.0
 France,2022,5000000.0
-French Polynesia,2017,100000.0
-French Polynesia,2018,100000.0
-French Polynesia,2019,100000.0
-French Polynesia,2020,100000.0
-French Polynesia,2021,100000.0
-French Polynesia,2022,100000.0
-Gabon,2017,200000.0
-Gabon,2018,200000.0
-Gabon,2019,200000.0
-Gabon,2020,300000.0
-Gabon,2021,300000.0
-Gabon,2022,300000.0
 Gambia,2017,100000.0
 Gambia,2018,100000.0
 Gambia,2019,200000.0
@@ -393,12 +333,6 @@ Greece,2019,2300000.0
 Greece,2020,2400000.0
 Greece,2021,2400000.0
 Greece,2022,2400000.0
-Guatemala,2017,2300000.0
-Guatemala,2018,2400000.0
-Guatemala,2019,2500000.0
-Guatemala,2020,2600000.0
-Guatemala,2021,2800000.0
-Guatemala,2022,2900000.0
 Guinea,2017,500000.0
 Guinea,2018,500000.0
 Guinea,2019,500000.0
@@ -417,12 +351,6 @@ Guyana,2019,100000.0
 Guyana,2020,100000.0
 Guyana,2021,100000.0
 Guyana,2022,200000.0
-Haiti,2017,600000.0
-Haiti,2018,600000.0
-Haiti,2019,700000.0
-Haiti,2020,700000.0
-Haiti,2021,700000.0
-Haiti,2022,800000.0
 Honduras,2017,1500000.0
 Honduras,2018,1600000.0
 Honduras,2019,1700000.0
@@ -549,18 +477,6 @@ Lesotho,2019,300000.0
 Lesotho,2020,300000.0
 Lesotho,2021,300000.0
 Lesotho,2022,300000.0
-Liberia,2017,300000.0
-Liberia,2018,300000.0
-Liberia,2019,400000.0
-Liberia,2020,400000.0
-Liberia,2021,400000.0
-Liberia,2022,500000.0
-Libya,2017,1400000.0
-Libya,2018,1500000.0
-Libya,2019,1500000.0
-Libya,2020,1600000.0
-Libya,2021,1600000.0
-Libya,2022,1700000.0
 Lithuania,2017,600000.0
 Lithuania,2018,600000.0
 Lithuania,2019,600000.0
@@ -608,12 +524,6 @@ Malta,2019,100000.0
 Malta,2020,100000.0
 Malta,2021,100000.0
 Malta,2022,100000.0
-Mauritania,2017,400000.0
-Mauritania,2018,400000.0
-Mauritania,2019,500000.0
-Mauritania,2020,500000.0
-Mauritania,2021,500000.0
-Mauritania,2022,600000.0
 Mauritius,2017,200000.0
 Mauritius,2018,200000.0
 Mauritius,2019,200000.0
@@ -632,12 +542,6 @@ Mongolia,2019,500000.0
 Mongolia,2020,500000.0
 Mongolia,2021,500000.0
 Mongolia,2022,500000.0
-Montenegro,2017,100000.0
-Montenegro,2018,100000.0
-Montenegro,2019,100000.0
-Montenegro,2020,100000.0
-Montenegro,2021,100000.0
-Montenegro,2022,100000.0
 Morocco,2017,4600000.0
 Morocco,2018,4800000.0
 Morocco,2019,5000000.0
@@ -650,12 +554,6 @@ Mozambique,2019,1300000.0
 Mozambique,2020,1400000.0
 Mozambique,2021,1600000.0
 Mozambique,2022,1700000.0
-Myanmar,2017,2200000.0
-Myanmar,2018,2300000.0
-Myanmar,2019,2500000.0
-Myanmar,2020,2600000.0
-Myanmar,2021,2700000.0
-Myanmar,2022,2800000.0
 Namibia,2017,200000.0
 Namibia,2018,200000.0
 Namibia,2019,200000.0
@@ -728,12 +626,6 @@ Panama,2019,1000000.0
 Panama,2020,1000000.0
 Panama,2021,1000000.0
 Panama,2022,1100000.0
-Papua New Guinea,2017,1000000.0
-Papua New Guinea,2018,1000000.0
-Papua New Guinea,2019,1100000.0
-Papua New Guinea,2020,1100000.0
-Papua New Guinea,2021,1200000.0
-Papua New Guinea,2022,1200000.0
 Paraguay,2017,1200000.0
 Paraguay,2018,1200000.0
 Paraguay,2019,1300000.0
@@ -854,30 +746,12 @@ Slovenia,2019,300000.0
 Slovenia,2020,300000.0
 Slovenia,2021,300000.0
 Slovenia,2022,300000.0
-Solomon Islands,2017,100000.0
-Solomon Islands,2018,100000.0
-Solomon Islands,2019,100000.0
-Solomon Islands,2020,100000.0
-Solomon Islands,2021,100000.0
-Solomon Islands,2022,100000.0
-Somalia,2017,800000.0
-Somalia,2018,900000.0
-Somalia,2019,900000.0
-Somalia,2020,1000000.0
-Somalia,2021,1100000.0
-Somalia,2022,1200000.0
 South Africa,2017,11200000.0
 South Africa,2018,11400000.0
 South Africa,2019,11600000.0
 South Africa,2020,11900000.0
 South Africa,2021,12100000.0
 South Africa,2022,12300000.0
-South Sudan,2017,300000.0
-South Sudan,2018,300000.0
-South Sudan,2019,400000.0
-South Sudan,2020,400000.0
-South Sudan,2021,400000.0
-South Sudan,2022,500000.0
 Spain,2017,6600000.0
 Spain,2018,6500000.0
 Spain,2019,6400000.0
@@ -890,12 +764,6 @@ Sri Lanka,2019,1400000.0
 Sri Lanka,2020,1500000.0
 Sri Lanka,2021,1600000.0
 Sri Lanka,2022,1700000.0
-Sudan,2017,2900000.0
-Sudan,2018,3200000.0
-Sudan,2019,3400000.0
-Sudan,2020,3700000.0
-Sudan,2021,3900000.0
-Sudan,2022,4200000.0
 Suriname,2017,100000.0
 Suriname,2018,100000.0
 Suriname,2019,100000.0
@@ -914,12 +782,6 @@ Switzerland,2019,800000.0
 Switzerland,2020,800000.0
 Switzerland,2021,900000.0
 Switzerland,2022,900000.0
-Syrian Arab Republic,2017,3200000.0
-Syrian Arab Republic,2018,3400000.0
-Syrian Arab Republic,2019,3700000.0
-Syrian Arab Republic,2020,4000000.0
-Syrian Arab Republic,2021,4200000.0
-Syrian Arab Republic,2022,4600000.0
 Tajikistan,2017,1000000.0
 Tajikistan,2018,1100000.0
 Tajikistan,2019,1200000.0
@@ -962,24 +824,12 @@ Turkmenistan,2019,800000.0
 Turkmenistan,2020,800000.0
 Turkmenistan,2021,900000.0
 Turkmenistan,2022,900000.0
-Uganda,2017,1000000.0
-Uganda,2018,1200000.0
-Uganda,2019,1300000.0
-Uganda,2020,1400000.0
-Uganda,2021,1600000.0
-Uganda,2022,1800000.0
 Ukraine,2017,8300000.000000001
 Ukraine,2018,8300000.000000001
 Ukraine,2019,8400000.0
 Ukraine,2020,8400000.0
 Ukraine,2021,8400000.0
 Ukraine,2022,7700000.0
-United Arab Emirates,2017,2400000.0
-United Arab Emirates,2018,2400000.0
-United Arab Emirates,2019,2400000.0
-United Arab Emirates,2020,2500000.0
-United Arab Emirates,2021,2500000.0
-United Arab Emirates,2022,2500000.0
 United Kingdom of Great Britain and Northern Ireland,2017,13400000.0
 United Kingdom of Great Britain and Northern Ireland,2018,13600000.0
 United Kingdom of Great Britain and Northern Ireland,2019,13800000.0
@@ -1010,12 +860,6 @@ Uzbekistan,2019,5900000.0
 Uzbekistan,2020,6200000.0
 Uzbekistan,2021,6500000.0
 Uzbekistan,2022,6800000.0
-Venezuela (Bolivarian Republic of),2017,4700000.0
-Venezuela (Bolivarian Republic of),2018,4500000.0
-Venezuela (Bolivarian Republic of),2019,4400000.0
-Venezuela (Bolivarian Republic of),2020,4300000.0
-Venezuela (Bolivarian Republic of),2021,4300000.0
-Venezuela (Bolivarian Republic of),2022,4300000.0
 Viet Nam,2017,900000.0
 Viet Nam,2018,1000000.0
 Viet Nam,2019,1100000.0

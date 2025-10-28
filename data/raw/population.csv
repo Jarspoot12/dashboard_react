@@ -62,13 +62,6 @@ Azerbaijan,2020,10181730.0
 Azerbaijan,2021,10234371.0
 Azerbaijan,2022,10295304.0
 Azerbaijan,2023,10318207.0
-Bahamas,2017,390485.0
-Bahamas,2018,392717.0
-Bahamas,2019,394675.0
-Bahamas,2020,395863.0
-Bahamas,2021,396373.0
-Bahamas,2022,397538.0
-Bahamas,2023,399440.0
 Bahrain,2017,1481995.0
 Bahrain,2018,1497626.0
 Bahrain,2019,1485670.0
@@ -258,13 +251,6 @@ Colombia,2020,50629998.0
 Colombia,2021,51188173.0
 Colombia,2022,51737944.0
 Colombia,2023,52321152.0
-Comoros,2017,756669.0
-Comoros,2018,771590.0
-Comoros,2019,786578.0
-Comoros,2020,802163.0
-Comoros,2021,818174.0
-Comoros,2022,834188.0
-Comoros,2023,850387.0
 Congo,2017,5351011.0
 Congo,2018,5483118.0
 Congo,2019,5616661.0
@@ -314,13 +300,6 @@ Czechia,2020,10550129.0
 Czechia,2021,10530683.0
 Czechia,2022,10673213.0
 Czechia,2023,10809716.0
-Democratic People's Republic of Korea,2017,25817709.0
-Democratic People's Republic of Korea,2018,25931147.0
-Democratic People's Republic of Korea,2019,26037632.0
-Democratic People's Republic of Korea,2020,26136312.0
-Democratic People's Republic of Korea,2021,26232534.0
-Democratic People's Republic of Korea,2022,26328845.0
-Democratic People's Republic of Korea,2023,26418204.0
 Denmark,2017,5765168.0
 Denmark,2018,5793824.0
 Denmark,2019,5814618.0
@@ -328,13 +307,6 @@ Denmark,2020,5831530.0
 Denmark,2021,5856776.0
 Denmark,2022,5902904.0
 Denmark,2023,5948136.0
-Dominica,2017,68496.0
-Dominica,2018,68174.0
-Dominica,2019,67880.0
-Dominica,2020,67573.0
-Dominica,2021,67202.0
-Dominica,2022,66826.0
-Dominica,2023,66510.0
 Dominican Republic,2017,10666843.0
 Dominican Republic,2018,10782053.0
 Dominican Republic,2019,10894043.0
@@ -384,13 +356,6 @@ Estonia,2020,1329669.0
 Estonia,2021,1331749.0
 Estonia,2022,1350091.0
 Estonia,2023,1367196.0
-Eswatini,2017,1158195.0
-Eswatini,2018,1168929.0
-Eswatini,2019,1179874.0
-Eswatini,2020,1192729.0
-Eswatini,2021,1206593.0
-Eswatini,2022,1218917.0
-Eswatini,2023,1230506.0
 Ethiopia,2017,109666481.0
 Ethiopia,2018,112664152.0
 Ethiopia,2019,115737383.0
@@ -419,27 +384,6 @@ France,2020,65905277.0
 France,2021,66083547.99999999
 France,2022,66277409.0
 France,2023,66438822.0
-French Guiana,2017,276144.0
-French Guiana,2018,280962.0
-French Guiana,2019,285568.0
-French Guiana,2020,289055.0
-French Guiana,2021,293015.0
-French Guiana,2022,298306.0
-French Guiana,2023,303402.0
-French Polynesia,2017,280087.0
-French Polynesia,2018,279815.0
-French Polynesia,2019,279034.0
-French Polynesia,2020,279209.0
-French Polynesia,2021,279792.0
-French Polynesia,2022,280378.0
-French Polynesia,2023,281118.0
-Gabon,2017,2156900.0
-Gabon,2018,2212318.0
-Gabon,2019,2267706.0
-Gabon,2020,2322539.0
-Gabon,2021,2376722.0
-Gabon,2022,2430747.0
-Gabon,2023,2484789.0
 Gambia,2017,2342189.0
 Gambia,2018,2399632.0
 Gambia,2019,2456844.0
@@ -482,20 +426,6 @@ Grenada,2020,116341.0
 Grenada,2021,116688.0
 Grenada,2022,116913.0
 Grenada,2023,117081.0
-Guadeloupe,2017,412692.0
-Guadeloupe,2018,415180.0
-Guadeloupe,2019,410257.0
-Guadeloupe,2020,407394.0
-Guadeloupe,2021,399151.0
-Guadeloupe,2022,384697.0
-Guadeloupe,2023,376517.0
-Guatemala,2017,16567357.0
-Guatemala,2018,16845685.0
-Guatemala,2019,17103803.0
-Guatemala,2020,17357325.0
-Guatemala,2021,17598650.0
-Guatemala,2022,17847877.0
-Guatemala,2023,18124838.0
 Guinea,2017,12385659.0
 Guinea,2018,12704774.0
 Guinea,2019,13034346.0
@@ -517,13 +447,6 @@ Guyana,2020,807481.0
 Guyana,2021,815482.0
 Guyana,2022,821637.0
 Guyana,2023,826353.0
-Haiti,2017,10817754.0
-Haiti,2018,10962362.0
-Haiti,2019,11105163.0
-Haiti,2020,11243848.0
-Haiti,2021,11374586.0
-Haiti,2022,11503606.0
-Haiti,2023,11637398.0
 Honduras,2017,9588137.0
 Honduras,2018,9765210.0
 Honduras,2019,9943633.0
@@ -671,20 +594,6 @@ Lesotho,2020,2235727.0
 Lesotho,2021,2261542.0
 Lesotho,2022,2286110.0
 Lesotho,2023,2311472.0
-Liberia,2017,4848925.0
-Liberia,2018,4944726.0
-Liberia,2019,5043721.0
-Liberia,2020,5149463.0
-Liberia,2021,5259323.0
-Liberia,2022,5373294.0
-Liberia,2023,5493031.0
-Libya,2017,6738770.0
-Libya,2018,6849055.0
-Libya,2019,6951033.0
-Libya,2020,7045399.0
-Libya,2021,7135175.0
-Libya,2022,7223805.0
-Libya,2023,7305659.0
 Lithuania,2017,2829313.0
 Lithuania,2018,2802478.0
 Lithuania,2019,2795058.0
@@ -741,20 +650,6 @@ Malta,2020,518207.0
 Malta,2021,524376.0
 Malta,2022,528192.0
 Malta,2023,532956.0
-Martinique,2017,371502.0
-Martinique,2018,364089.0
-Martinique,2019,359611.0
-Martinique,2020,356615.0
-Martinique,2021,353278.0
-Martinique,2022,349459.0
-Martinique,2023,346002.0
-Mauritania,2017,4210600.0
-Mauritania,2018,4337685.0
-Mauritania,2019,4467708.0
-Mauritania,2020,4600131.0
-Mauritania,2021,4734874.0
-Mauritania,2022,4875637.0
-Mauritania,2023,5022441.0
 Mauritius,2017,1290655.0
 Mauritius,2018,1288833.0
 Mauritius,2019,1286270.0
@@ -888,13 +783,6 @@ Panama,2020,4293261.0
 Panama,2021,4345405.0
 Panama,2022,4400773.0
 Panama,2023,4458759.0
-Papua New Guinea,2017,9178714.0
-Papua New Guinea,2018,9394513.0
-Papua New Guinea,2019,9609010.0
-Papua New Guinea,2020,9815746.0
-Papua New Guinea,2021,10012896.0
-Papua New Guinea,2022,10203169.0
-Papua New Guinea,2023,10389635.0
 Paraguay,2017,6338660.0
 Paraguay,2018,6427382.0
 Paraguay,2019,6515058.0
@@ -958,13 +846,6 @@ Republic of Moldova,2020,3069131.0
 Republic of Moldova,2021,3023778.0
 Republic of Moldova,2022,3039985.0
 Republic of Moldova,2023,3067070.0
-Réunion,2017,858754.0
-Réunion,2018,856942.0
-Réunion,2019,857327.0
-Réunion,2020,861446.0
-Réunion,2021,868079.0
-Réunion,2022,871540.0
-Réunion,2023,874883.0
 Romania,2017,19689402.0
 Romania,2018,19597872.0
 Romania,2019,19501542.0
@@ -1014,13 +895,6 @@ Samoa,2020,211944.0
 Samoa,2021,213779.0
 Samoa,2022,215261.0
 Samoa,2023,216663.0
-Sao Tome and Principe,2017,206970.0
-Sao Tome and Principe,2018,210187.0
-Sao Tome and Principe,2019,213392.0
-Sao Tome and Principe,2020,217435.0
-Sao Tome and Principe,2021,221961.0
-Sao Tome and Principe,2022,226305.0
-Sao Tome and Principe,2023,230871.0
 Saudi Arabia,2017,30782402.0
 Saudi Arabia,2018,30365121.0
 Saudi Arabia,2019,30472812.0
@@ -1077,13 +951,6 @@ Slovenia,2020,2102419.0
 Slovenia,2021,2113494.0
 Slovenia,2022,2115228.0
 Slovenia,2023,2118396.0
-Somalia,2017,14916629.0
-Somalia,2018,15452487.0
-Somalia,2019,16030971.0
-Somalia,2020,16651190.999999998
-Somalia,2021,17271431.0
-Somalia,2022,17801897.0
-Somalia,2023,18358615.0
 South Africa,2017,57635162.0
 South Africa,2018,58613000.0
 South Africa,2019,59587885.0
@@ -1105,13 +972,6 @@ Sri Lanka,2020,22561807.0
 Sri Lanka,2021,22700372.0
 Sri Lanka,2022,22834965.0
 Sri Lanka,2023,22971617.0
-Sudan,2017,42714306.0
-Sudan,2018,44230596.0
-Sudan,2019,45548176.0
-Sudan,2020,46789231.0
-Sudan,2021,48066924.0
-Sudan,2022,49383346.0
-Sudan,2023,50042791.0
 Suriname,2017,593713.0
 Suriname,2018,599513.0
 Suriname,2019,605768.0
@@ -1196,13 +1056,6 @@ Turkmenistan,2020,6949912.0
 Turkmenistan,2021,7092043.0
 Turkmenistan,2022,7230193.0
 Turkmenistan,2023,7364438.0
-Uganda,2017,40177388.0
-Uganda,2018,41565831.0
-Uganda,2019,42999637.0
-Uganda,2020,44457152.0
-Uganda,2021,45910930.0
-Uganda,2022,47312719.0
-Uganda,2023,48656601.0
 Ukraine,2017,45436041.0
 Ukraine,2018,45208907.0
 Ukraine,2019,44957458.0
@@ -1252,13 +1105,6 @@ Vanuatu,2020,298858.0
 Vanuatu,2021,305868.0
 Vanuatu,2022,313046.0
 Vanuatu,2023,320409.0
-Venezuela (Bolivarian Republic of),2017,30565323.0
-Venezuela (Bolivarian Republic of),2018,29807592.0
-Venezuela (Bolivarian Republic of),2019,28938098.0
-Venezuela (Bolivarian Republic of),2020,28444077.0
-Venezuela (Bolivarian Republic of),2021,28237826.0
-Venezuela (Bolivarian Republic of),2022,28213017.0
-Venezuela (Bolivarian Republic of),2023,28300854.0
 Viet Nam,2017,95176977.0
 Viet Nam,2018,96237319.0
 Viet Nam,2019,97173776.0
