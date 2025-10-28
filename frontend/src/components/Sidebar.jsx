@@ -26,7 +26,7 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
   return (
     <nav className="sidebar">
       <div className="sidebar-header">
-        <h3>Mi Dashboard</h3>
+        <h3>Secciones</h3>
       </div>
       <ul className="sidebar-menu">
         <NavItem 
