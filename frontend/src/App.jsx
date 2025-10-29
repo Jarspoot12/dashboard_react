@@ -24,6 +24,8 @@ function App() {
 
   // --- ESTADOS PARA FILTROS ---
   const [selectedArea, setSelectedArea] = useState('Albania'); // Filtro para KPIs
+  const [dashboardYear, setDashboardYear] = useState(2023); // filtro de año para las tarjetas KPI
+
   const [selectedYear, setSelectedYear] = useState(2023);     // Filtro para Mapa
   const [selectedItem, setSelectedItem] = useState('Agriculture'); // Filtro para Mapa
   const [mapMetric, setMapMetric] = useState('prod_percapita_usd'); // Filtro de métrica del Mapa
@@ -67,7 +69,11 @@ function App() {
   }, [allData, selectedArea]);
   
   // 2. Datos para las tarjetas KPI (basado en el filtro anterior)
-  const latestData = lineChartData.length > 0 ? lineChartData[lineChartData.length - 1] : null;
+  const kpiData = useMemo(() => {
+    // lineChartData ya está filtrado por Área y ordenado por año
+    // Simplemente encontramos el año que coincide con nuestro nuevo estado
+    return lineChartData.find(d => d.Year === dashboardYear);
+  }, [lineChartData, dashboardYear]); // ¡Ahora depende de dashboardYear!
 
   // 3. Opciones para el selector de países (formato { value, label })
   const areaOptions = useMemo(() => {
@@ -98,19 +104,30 @@ function App() {
           <> 
             <header className="dashboard-header">
               <h1>Dashboard Táctico: Agricultura y Nutrición</h1>
-              <div className="filtro-container">
+              <div className="filtro-container" style={{display: 'flex', gap: '1rem', justifyContent: 'center'}}>
                 <label htmlFor="area-select">Selecciona Área (para KPIs y gráficos de abajo):</label>
                 <select id="area-select" value={selectedArea} onChange={e => setSelectedArea(e.target.value)}>
                   {availableAreas.map(area => (<option key={area} value={area}>{area}</option>))}
                 </select>
+
+                <div>
+                  <label htmlFor="kpi-year-select">Selecciona Año (KPIs):</label>
+                  <select 
+                    id="kpi-year-select" 
+                    value={dashboardYear} 
+                    onChange={e => setDashboardYear(Number(e.target.value))}
+                  >
+                    {YEARS.map(year => (<option key={year} value={year}>{year}</option>))}
+                  </select>
+                </div>
               </div>
             </header>
 
             <div className="kpi-grid">
-              <div className="kpi-card"><h3>Producción Total ({latestData?.Year})</h3><p>${latestData?.prod_valor_usd?.toLocaleString()}</p></div>
-              <div className="kpi-card"><h3>Prod. Per Cápita ({latestData?.Year})</h3><p>${latestData?.prod_percapita_usd?.toFixed(2)}</p></div>
-              <div className="kpi-card"><h3>Costo Dieta ({latestData?.Year})</h3><p>${latestData?.costo_dieta_ppp_day?.toFixed(2)} / día</p></div>
-              <div className="kpi-card"><h3>Tasa de Obesidad ({latestData?.Year})</h3><p>{latestData?.obesidad_pct?.toFixed(2)}%</p></div>
+              <div className="kpi-card"><h3>Producción Total ({kpiData?.Year || dashboardYear})</h3><p>${kpiData?.prod_valor_usd?.toLocaleString() || 'N/A'}</p></div>
+              <div className="kpi-card"><h3>Prod. Per Cápita ({kpiData?.Year || dashboardYear})</h3><p>${kpiData?.prod_percapita_usd?.toFixed(2) || 'N/A'}</p></div>
+              <div className="kpi-card"><h3>Costo Dieta ({kpiData?.Year || dashboardYear})</h3><p>${kpiData?.costo_dieta_ppp_day?.toFixed(2) || 'N/A'} / día</p></div>
+              <div className="kpi-card"><h3>Tasa de Obesidad ({kpiData?.Year || dashboardYear})</h3><p>{kpiData?.obesidad_pct?.toFixed(2) || 'N/A'}%</p></div>
             </div>
 
             <div className="charts-grid">
