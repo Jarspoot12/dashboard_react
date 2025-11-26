@@ -124,7 +124,15 @@ function App() {
             </header>
 
             <div className="kpi-grid">
-              <div className="kpi-card"><h3>Producción Total ({kpiData?.Year || dashboardYear})</h3><p>${kpiData?.prod_valor_usd?.toLocaleString() || 'N/A'}</p></div>
+              <div className="kpi-card">
+                <h3>Producción Total ({kpiData?.Year || dashboardYear})</h3>
+                {/* Dividimos por 1000 y agregamos 'k' */}
+                <p>
+                  {kpiData?.prod_valor_usd 
+                    ? `$${(kpiData.prod_valor_usd / 1000000).toLocaleString(undefined, { maximumFractionDigits: 0 })} M` 
+                    : 'N/A'}
+                </p>
+              </div>
               <div className="kpi-card"><h3>Prod. Per Cápita ({kpiData?.Year || dashboardYear})</h3><p>${kpiData?.prod_percapita_usd?.toFixed(2) || 'N/A'}</p></div>
               <div className="kpi-card"><h3>Costo Dieta ({kpiData?.Year || dashboardYear})</h3><p>${kpiData?.costo_dieta_ppp_day?.toFixed(2) || 'N/A'} / día</p></div>
               <div className="kpi-card"><h3>Tasa de Obesidad ({kpiData?.Year || dashboardYear})</h3><p>{kpiData?.obesidad_pct?.toFixed(2) || 'N/A'}%</p></div>

@@ -7,6 +7,9 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 }
+.letrasmapa {
+  color: rgba(255, 255, 255, 0.87);
+}
 
 body {
   margin: 0;
@@ -152,7 +155,7 @@ body {
 }
 
 .map-container svg text {
-  fill: #ccc !important;
+  fill: #ffffff !important;
 }
 
 .trend-section .filtro-container {
@@ -180,11 +183,11 @@ body {
 }
 
 .select__menu {
-  background-color: #444 !important;
+  background-color: #ececed !important;
 }
 
 .select__option:hover {
-  background-color: #5c5c5c !important;
+  background-color: #bababa !important;
 }
 
 .select__multi-value {
@@ -194,3 +197,4 @@ body {
 .select__multi-value__label {
   color: #fff !important;
 }
+

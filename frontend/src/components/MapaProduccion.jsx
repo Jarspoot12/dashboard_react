@@ -2,6 +2,7 @@
 
 import React, { useMemo } from 'react';
 import { ResponsiveChoropleth } from '@nivo/geo';
+import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 // Asegúrate de que este archivo esté en la misma carpeta (src/components/)
 import world_countries from './world_countries.json'; 
 
@@ -179,12 +180,17 @@ const miTema = {
   // Color del "océano" (fondo del lienzo del mapa)
   background: '#2a344a',
 
+  text: {
+    fontSize: 18, // <--- AUMENTADO: Tamaño de letra general (antes 11 o default)
+    fill: '#ffffffff', // Color blanco para que se vea bien
+  },
+
   // Personalización del Tooltip
   tooltip: {
     container: {
       background: '#ffffff', // Fondo blanco para el tooltip
       color: '#000000',      // <-- Letras color NEGRO
-      fontSize: '13px',
+      fontSize: '18px',
     },
   },
 };
@@ -282,11 +288,23 @@ const MapaProduccion = ({ data, year, item, metric }) => {
 
       // Tooltip (al pasar el mouse)
       tooltip={({ feature }) => {
+        // 'feature' contiene los datos del país bajo el cursor
         const d = feature.data;
-        if (!d) return 'Sin datos';
-        // Usamos la función formatValue
-        return `${feature.properties.name}: ${formatValue(d.value)}`;
-      }}
+        
+        // Si no hay datos, muestra esto
+        if (!d) return (
+            <div style={{ background: 'rgba(84, 84, 84, 1)', padding: '4px' }}>
+                {feature.properties.name}: Sin datos
+            </div>
+        );
+
+        // Si hay datos, muestra esto (Nombre: Valor)
+        return (
+            <div style={{ background: 'rgba(0, 0, 0, 1)', padding: '7px 10px', border: '1px solid #ccc' }}>
+                <strong>{feature.properties.name}</strong>: {formatValue(d.value)}
+            </div>
+        );
+    }}
 
       // Bordes
       borderWidth={0.5}
@@ -298,15 +316,15 @@ const MapaProduccion = ({ data, year, item, metric }) => {
           anchor: 'bottom-left',
           direction: 'column',
           justify: true,
-          translateX: 20,
-          translateY: -100,
-          itemsSpacing: 2,
-          itemWidth: 94,
-          itemHeight: 18,
+          translateX: 30, // Movemos un poco más a la derecha para que quepa el texto grande
+          translateY: -60, // Subimos un poco la leyenda
+          itemsSpacing: 10, // Más espacio entre items
+          itemWidth: 170,   // <--- AUMENTADO: Ancho del área del item para que quepa texto largo
+          itemHeight: 35,   // <--- AUMENTADO: Altura del área
           itemDirection: 'left-to-right',
-          itemTextColor: '#ccc',
-          itemOpacity: 0.85,
-          symbolSize: 18,
+          itemTextColor: '#ffffffff', // Color casi blanco
+          itemOpacity: 1,
+          symbolSize: 40,   // <--- AUMENTADO: Tamaño del cuadro de color (antes 18)
           
           // Leyenda personalizada con Min y Max
           data: [
